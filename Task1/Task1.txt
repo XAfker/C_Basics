@@ -1,0 +1,14 @@
+Write a program that reads in integers until a zero appears and prints out the length of the longest sequence of consecutive numbers with the same value (and that value).
+For example, for
+22 22 22 22 3 3 3 2 -6 -6 -6 0
+the result should be
+Longest sequence: 4 times 22
+for
+-2 -2 -2 31 31 31 31 31 17 6 6 6 0
+the result should be
+Longest sequence: 5 times 31
+and for
+-3 2 -3 -3 2 -3 61 61 61 0
+it should be
+Longest sequence: 3 times 61
+Do not use arrays, strings, or any other collections

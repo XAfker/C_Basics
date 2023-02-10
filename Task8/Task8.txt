@@ -1,0 +1,10 @@
+Create a class "Point" whose objects will represent points on the Cartesian plane (with coordinates of type double). The class should define:
+• a default constructor creating a point (0; 0);
+• a single-parameter constructor creating a point with both coordinates equal to the value passed to the constructor;
+• a two-parameter constructor (two coordinates);
+• methods getX() and getY() returning the values of the respective coordinates;
+• methods setX(double) and setY(double) changing the values of the respective coordinates;
+• methods transX(double) and transY(double) adding the passed value to the respective coordinates of the point (translation);
+• a method transXY(double,double) performing a translation of the point by the given values;
+• a static member function dist returning the distance between two points passed by reference.
+Note: The methods setX, setY, transX, transY and transXY should return the object (point) by reference on which the call was made (i.e. *this).

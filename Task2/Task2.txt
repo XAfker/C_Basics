@@ -1,0 +1,11 @@
+Write a program that in a loop asks the user to enter a positive integer; reading ends when the user enters the number 0. Then the program prints out those of the read numbers for which the sum of digits is the largest (and that sum of digits).
+The program communicates with the user in a language (e.g. Polish or English) that depends on whether the preprocessor macro (e.g. POL or ENG) is defined; if neither of these macros is defined, or if both are defined, the program should not compile at all.
+Example run of the program:
+enter a natural number (0 if done): 1111
+enter a natural number (0 if done): 82
+enter a natural number (0 if done): 7890
+enter a natural number (0 if done): 98
+enter a natural number (0 if done): 1111119
+enter a natural number (0 if done): 0
+Max sum of digits was 24 for 7890
+NOTE: Do not use arrays, strings, or any other collections.

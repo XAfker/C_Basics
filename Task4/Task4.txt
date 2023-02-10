@@ -1,0 +1,16 @@
+Write and test the following set of recursive functions (there should be no loops in their bodies; in the implementation of the first three, even if statements should not be needed)
+• int gcdRec(int a, int b); - returns the greatest common divisor of two natural (positive integer) numbers;
+• int sumDigits(int n); - returns the sum (in decimal) of the digits of the given natural number (e.g., 34!7);
+• int numDigits(int n); - returns the number (in decimal) of digits of the given natural number (e.g., 34!2);
+• void printOddEven(int n); - prints in one line:
+
+-for even n - all even numbers starting from 2 up to n;
+-for odd n - all odd numbers from 1 up to n.
+(assume that n is positive);
+
+• void hailstone(int n); - prints in one line all numbers of the Collatz sequence (see below) from n up to 1.
+The Collatz sequence, also known as the Ulam sequence or "hailstone" sequence, is a sequence for which the first term a0 is a positive integer, 
+and the following terms are calculated using the formula
+an+1 = an/2 if an is even;
+an+1 = 3an + 1 if an is odd:
+The Collatz hypothesis (still unproven) states that regardless of the value of the first element a0, after a certain number of steps the sequence will reach the value 1 (and then it will repeatedly take the values 1!4!2!1. . . ).

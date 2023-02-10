@@ -1,0 +1,7 @@
+Define a function with the header:
+const Couple* bestClient(const Couple* cpls, int size, Banks bank);
+This function returns a pointer to the couple in the array passed as the first argument 
+(with dimension size) that has the largest sum of their (his) and her savings, but only among such couples 
+where at least one of the partners has an account in the bank bank. If none of the people have an account in the bank bank, the function returns nullptr. 
+It is not assumed that the account balance is non-negative; it can be arbitrarily large positive or arbitrarily large negative. 
+If two or more couples among those that meet the imposed condition have the same, largest savings, the function returns a pointer to any of them.

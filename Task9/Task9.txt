@@ -1,0 +1,21 @@
+Define a class "Segment" that represents a segment [A;B] on the numerical axis.
+
+Class Definition:
+
+class Segment {
+double A,B;
+public:
+Segment(double A, double B) : A(A), B(B) { }
+// ...
+};
+Define the appropriate methods and functions so that for a segment "seg" and a double type number "d",
+• The value of the expression "dseg" or "segd" is the segment obtained from "seg" by scaling by "d" (i.e., the coordinates of the end and beginning of the segment are equal to d * A and d * B, where A and B are the coordinates of the beginning and end of the segment "seg").
+• The value of the expression "seg/d" is the segment obtained from "seg" by scaling by 1/d (the segment "seg" is "divided" by d).
+• The value of the expression "seg + d" or "d + seg" is the segment "seg" shifted to the right by "d".
+• The value of the expression "seg - d" is the segment "seg" shifted to the left by "d".
+• The value of the expression "seg1 + seg2" is the smallest segment containing the segments "seg1" and "seg2".
+• The value of the expression "seg(d)" is true if "d" belongs to the segment "seg" and false otherwise.
+
+All of these operations should not modify their arguments — they should return new objects.
+
+Also overload the "<<" operator.

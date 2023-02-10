@@ -1,0 +1,8 @@
+Write a function with prototype:
+
+const double* aver(const double* arr, size_t size, double& average);
+
+The function takes an array of double numbers, its size, and a double variable called 
+"average" passed by reference. The purpose of the function is to store 
+the arithmetic average of the array elements in the "average" variable and return 
+a pointer to the element in the array whose value is closest to this average.

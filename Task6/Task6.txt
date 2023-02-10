@@ -1,0 +1,13 @@
+Write the function
+bool checkpass(const char* pass);
+that takes a password (as a C-string, i.e. an array of characters) and checks its correctness.
+We accept that a correct password contains
+
+at least 8 characters;
+at least 6 different characters;
+at least 1 digit;
+at least 1 capital letter;
+at least 1 lowercase letter;
+at least 1 non-alphanumeric character (not a letter or a digit).
+The function returns true if the password is correct, and if not, it returns false, but before that it prints out a message about all the reasons for incorrectness. 
+It can be assumed that the characters are ASCII characters. [It may be useful to define some simple auxiliary functions as well.]
